@@ -1,0 +1,3 @@
+/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/myaddin.dir
+/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/edit_cache.dir
+/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,336 @@
+The target system is: Generic - 1 - sh
+The host system is: Linux - 6.2.0-34-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/maxps/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/maxps/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75b23/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75b23.dir/build.make CMakeFiles/cmTC_75b23.dir/build
+gmake[1]: Entering directory '/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj
+/home/maxps/.local/bin/sh-elf-gcc -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa,--dsp -o CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_AS_OPTIONS='--dsp'
+COLLECT_GCC=/home/maxps/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75b23.dir/'
+ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v -D TARGET_FX9860G /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_75b23.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mb -version -ffreestanding -o /tmp/cchW0uMS.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c132049c773dfca40cb4f14f862d19d1
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75b23.dir/'
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj /tmp/cchW0uMS.s
+COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_75b23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75b23.dir/link.txt --verbose=1
+/home/maxps/.local/bin/sh-elf-gcc  -v -nostdlib -Wl,--no-warn-rwx-segments CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj -o cmTC_75b23  -lgcc 
+Using built-in specs.
+COLLECT_GCC=/home/maxps/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_75b23' '-dumpdir' 'cmTC_75b23.'
+ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEBIMCU.res -m shelf -o cmTC_75b23 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj -lgcc
+/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: warning: cannot find entry symbol start; defaulting to 0000000000001000
+COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_75b23' '-dumpdir' 'cmTC_75b23.'
+gmake[1]: Leaving directory '/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include]
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed]
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include]
+  end of search list found
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include] ==> [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include]
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed] ==> [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed]
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include] ==> [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+  implicit include dirs: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include;/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed;/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(sh-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75b23/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75b23.dir/build.make CMakeFiles/cmTC_75b23.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/maxps/.local/bin/sh-elf-gcc -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa --dsp -o CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_AS_OPTIONS='--dsp']
+  ignore line: [COLLECT_GCC=/home/maxps/.local/bin/sh-elf-gcc]
+  ignore line: [Target: sh3eb-elf]
+  ignore line: [Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75b23.dir/']
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v -D TARGET_FX9860G /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_75b23.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mb -version -ffreestanding -o /tmp/cchW0uMS.s]
+  ignore line: [GNU C17 (GCC) version 11.1.0 (sh3eb-elf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.1.0 (sh3eb-elf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c132049c773dfca40cb4f14f862d19d1]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75b23.dir/']
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj /tmp/cchW0uMS.s]
+  ignore line: [COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_75b23]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75b23.dir/link.txt --verbose=1]
+  ignore line: [/home/maxps/.local/bin/sh-elf-gcc  -v -nostdlib -Wl --no-warn-rwx-segments CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj -o cmTC_75b23  -lgcc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/maxps/.local/bin/sh-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper]
+  ignore line: [Target: sh3eb-elf]
+  ignore line: [Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_75b23' '-dumpdir' 'cmTC_75b23.']
+  link line: [ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEBIMCU.res -m shelf -o cmTC_75b23 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj -lgcc]
+    arg [/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEBIMCU.res] ==> ignore
+    arg [-m] ==> ignore
+    arg [shelf] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_75b23] ==> ignore
+    arg [-L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0] ==> dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0]
+    arg [-L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib] ==> dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib]
+    arg [--no-warn-rwx-segments] ==> ignore
+    arg [CMakeFiles/cmTC_75b23.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0] ==> [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0]
+  collapse library dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib] ==> [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+  implicit libs: [gcc]
+  implicit objs: []
+  implicit dirs: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0;/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05a85/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05a85.dir/build.make CMakeFiles/cmTC_05a85.dir/build
+gmake[1]: Entering directory '/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj
+/home/maxps/.local/bin/sh-elf-g++ -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa,--dsp -o CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_AS_OPTIONS='--dsp'
+COLLECT_GCC=/home/maxps/.local/bin/sh-elf-g++
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05a85.dir/'
+ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1plus -quiet -v -D TARGET_FX9860G /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05a85.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mb -version -ffreestanding -o /tmp/ccYhyJRj.s
+GNU C++17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/sh3eb-elf
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/backward
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C++17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 70c9bc94a7543f6d805856e84da85785
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05a85.dir/'
+ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccYhyJRj.s
+COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_05a85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05a85.dir/link.txt --verbose=1
+/home/maxps/.local/bin/sh-elf-g++  -v -nostdlib -Wl,--no-warn-rwx-segments CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_05a85  -lgcc 
+Using built-in specs.
+COLLECT_GCC=/home/maxps/.local/bin/sh-elf-g++
+COLLECT_LTO_WRAPPER=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_05a85' '-dumpdir' 'cmTC_05a85.'
+ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccLIWsH.res -m shelf -o cmTC_05a85 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj -lgcc
+/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: warning: cannot find entry symbol start; defaulting to 0000000000001000
+COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_05a85' '-dumpdir' 'cmTC_05a85.'
+gmake[1]: Leaving directory '/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0]
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/sh3eb-elf]
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/backward]
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include]
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed]
+    add: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include]
+  end of search list found
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0] ==> [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/11.1.0]
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/sh3eb-elf] ==> [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/11.1.0/sh3eb-elf]
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/backward] ==> [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/11.1.0/backward]
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include] ==> [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include]
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed] ==> [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed]
+  collapse include dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include] ==> [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+  implicit include dirs: [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/11.1.0;/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/11.1.0/sh3eb-elf;/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include/c++/11.1.0/backward;/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include;/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed;/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(sh-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05a85/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05a85.dir/build.make CMakeFiles/cmTC_05a85.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/maxps/codes/casio/testApp0/build-fx/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/maxps/.local/bin/sh-elf-g++ -DTARGET_FX9860G  -v -mb -ffreestanding -nostdlib -Wa --dsp -o CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_AS_OPTIONS='--dsp']
+  ignore line: [COLLECT_GCC=/home/maxps/.local/bin/sh-elf-g++]
+  ignore line: [Target: sh3eb-elf]
+  ignore line: [Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05a85.dir/']
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1plus -quiet -v -D TARGET_FX9860G /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05a85.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mb -version -ffreestanding -o /tmp/ccYhyJRj.s]
+  ignore line: [GNU C++17 (GCC) version 11.1.0 (sh3eb-elf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/sh3eb-elf]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include/c++/11.1.0/backward]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed]
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.1.0 (sh3eb-elf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 70c9bc94a7543f6d805856e84da85785]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05a85.dir/']
+  ignore line: [ /home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big --dsp -o CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccYhyJRj.s]
+  ignore line: [COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FX9860G' '-v' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_05a85]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05a85.dir/link.txt --verbose=1]
+  ignore line: [/home/maxps/.local/bin/sh-elf-g++  -v -nostdlib -Wl --no-warn-rwx-segments CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_05a85  -lgcc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/maxps/.local/bin/sh-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper]
+  ignore line: [Target: sh3eb-elf]
+  ignore line: [Configured with: ../gcc-11.1.0/configure --prefix=/home/maxps/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_05a85' '-dumpdir' 'cmTC_05a85.']
+  link line: [ /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccLIWsH.res -m shelf -o cmTC_05a85 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj -lgcc]
+    arg [/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/maxps/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccLIWsH.res] ==> ignore
+    arg [-m] ==> ignore
+    arg [shelf] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_05a85] ==> ignore
+    arg [-L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0] ==> dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0]
+    arg [-L/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib] ==> dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib]
+    arg [--no-warn-rwx-segments] ==> ignore
+    arg [CMakeFiles/cmTC_05a85.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0] ==> [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0]
+  collapse library dir [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib] ==> [/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+  implicit libs: [gcc]
+  implicit objs: []
+  implicit dirs: [/home/maxps/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0;/home/maxps/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+  implicit fwks: []
+
+
