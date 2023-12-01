@@ -2,7 +2,7 @@
 # toolchain file and module path of the fxSDK
 
 cmake_minimum_required(VERSION 3.15)
-project(MyAddin)
+project(FlappyBloc)
 
 include(GenerateG1A)
 include(GenerateG3A)
@@ -28,14 +28,14 @@ set(ASSETS_cg
 
 fxconv_declare_assets(${ASSETS} ${ASSETS_fx} ${ASSETS_cg} WITH_METADATA)
 
-add_executable(myaddin ${SOURCES} ${ASSETS} ${ASSETS_${FXSDK_PLATFORM}})
-target_compile_options(myaddin PRIVATE -Wall -Wextra -Os)
-target_link_libraries(myaddin Gint::Gint)
+add_executable(flappybloc ${SOURCES} ${ASSETS} ${ASSETS_${FXSDK_PLATFORM}})
+target_compile_options(flappybloc PRIVATE -Wall -Wextra -Os)
+target_link_libraries(flappybloc Gint::Gint)
 
 if("${FXSDK_PLATFORM_LONG}" STREQUAL fx9860G)
-  generate_g1a(TARGET myaddin OUTPUT "MyAddin.g1a"
+  generate_g1a(TARGET flappybloc OUTPUT "FlappyBloc.g1a"
     NAME "MyAddin" ICON assets-fx/icon.png)
 elseif("${FXSDK_PLATFORM_LONG}" STREQUAL fxCG50)
-  generate_g3a(TARGET myaddin OUTPUT "MyAddin.g3a"
+  generate_g3a(TARGET flappybloc OUTPUT "FlappyBloc.g3a"
     NAME "MyAddin" ICONS assets-cg/icon-uns.png assets-cg/icon-sel.png)
 endif()
