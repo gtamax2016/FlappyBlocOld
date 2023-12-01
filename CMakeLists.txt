@@ -37,5 +37,5 @@ if("${FXSDK_PLATFORM_LONG}" STREQUAL fx9860G)
     NAME "MyAddin" ICON assets-fx/icon.png)
 elseif("${FXSDK_PLATFORM_LONG}" STREQUAL fxCG50)
   generate_g3a(TARGET flappybloc OUTPUT "FlappyBloc.g3a"
-    NAME "MyAddin" ICONS assets-cg/icon-uns.png assets-cg/icon-sel.png)
+    NAME "FlappyBloc" ICONS assets-cg/icon-uns.png assets-cg/icon-sel.png)
 endif()
