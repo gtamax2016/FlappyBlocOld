@@ -1,4 +1,7 @@
 # FlappyBloc
+
+NEW FLAPPYBLOC REP IS AVAILABLE
+
 Flappy bird on casio fx calculators
 
 To install this project, you'll need to connect you calculator to your pc and then transfer FlappyBloc.g1a to folder you've just opened (Calculator root folder).
